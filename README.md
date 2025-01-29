@@ -33,7 +33,7 @@ Outcome: The data was improved and made ready for analysis.
 - Data Analysis With Python (IBM)
 
 ###Contacts
-- LinkedIn: @manarashraf
+- LinkedIn: https://www.linkedin.com/in/manar-ashraf-43226622b/
 - Gmail: manarsan9@gmail.com
 
 
