@@ -1,0 +1,50 @@
+    select
+min(`TransactionAmount`) as minT,
+max(`TransactionAmount`) as maxT,
+avg(`TransactionAmount`) as avrT,
+sum(`TransactionAmount`) as sumT
+from cleaneddata;
+
+#count#
+select count(*) as row_count from originaldata;
+select count(*) as row_count from cleaneddata;
+
+###Null values####
+select count(*) as nul_count from originaldata where Email is null;
+select count(*) as nul_count from cleaneddata  where Email is null;
+
+select count(*) as nul_count from originaldata where customerName is null;
+select count(*) as nul_count from cleaneddata  where customerName is null;
+
+#Valdition Rules#
+SELECT * FROM cleaneddata WHERE email NOT LIKE '%@%'
+SELECT * FROM cleaneddata Where TransactionAmount <0 OR TransactionAmount IS NULL;
+
+#Duplicate#
+select TransactionDate, TransactionID, count(*) from Cleaneddata group by TransactionDate, TransactionID having count(*) >1;
+
+#Cross-Table Validation#
+SELECT t.TransactionID, t.CustomerName
+FROM transactions t
+LEFT JOIN customer_profiles c ON t.CustomerName = c.CustomerName
+WHERE c.CustomerName IS NULL;
+
+SELECT t.TransactionID, t.CustomerName
+FROM transactions t
+INNER JOIN customer_profiles c ON t.customerName = c.CustomerName
+
+#Null#
+
+Select *from cleaneddata Where customerName is null;
+Select *from cleaneddata where Email is null;
+
+#impact of cleaning#
+select * from originaldata where customerName is null or customerName= '' ;
+select * from cleaneddata where customerName is null or customerName= '' ;
+select * from cleaneddata;
+
+SELECT COUNT(*) - COUNT(DISTINCT TransactionID,CustomerName,Email,TransactionAmount,TransactionDate) AS duplicate_count
+FROM originaldata;
+
+SELECT COUNT(*) - COUNT(DISTINCT TransactionID,CustomerName,Email,TransactionAmount,TransactionDate) AS duplicate_count
+FROM cleaneddata;
