@@ -12,7 +12,7 @@ Commerce, Ainshams University
 
 ### Projects
 - Data Cleaning and Validation Project
-code: Data Cleaning and Validation Project
+- code: Data Cleaning and Validation Project
 
 In this project, I cleaned a financial dataset to ensure its quality and accuracy. The steps I performed are:
 Data Profiling: Generated summary statistics for the TransactionAmount column to identify anomalies or outliers.
