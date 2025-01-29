@@ -1,8 +1,8 @@
 # Data Analyst
 
-###Education
+### Education
 Commerce, ASU
 
-###Projects
+### Projects
 -Data cleaning
 -Data analysis
