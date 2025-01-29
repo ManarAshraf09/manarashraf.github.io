@@ -27,13 +27,13 @@ Challenges: One challenge was ensuring no important data was lost during cleanin
 Outcome: The data was improved and made ready for analysis.
 
 ### Certificates
-Foundations Of Data EveryWhere (Coursera)
-Excel Essential for Data Analytics (Coursera)
-Excel Basics for Data Analysis (IBM)
-Data Analysis With Python (IBM)
+- Foundations Of Data EveryWhere (Coursera)
+- Excel Essential for Data Analytics (Coursera)
+- Excel Basics for Data Analysis (IBM)
+- Data Analysis With Python (IBM)
 
 ###Contacts
--LinkedIn: @manarashraf
--Gmail: manarsan9@gmail.com
+- LinkedIn: @manarashraf
+- Gmail: manarsan9@gmail.com
 
 
