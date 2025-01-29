@@ -1,7 +1,7 @@
 # Data Analyst
 Technical Skills:Python,Sql,Excel,Powerbi
 
-#About
+#### About
 Hello, I'm Manar! I studied Accounting at the Faculty of Commerce,and I also completed Data Analysis studies through the Digital Egypt Pioneers initiative and I've developed a passion for applying my analytical skills in the field of data analysis. Throughout my studies, I honed my ability to work with numbers and analyze financial data, which I believe will be a valuable asset in data analysis.
 
 I am currently working on enhancing my skills in using technical tools like [Python, SQL, Excel, Powerbi] to dive deeper into data analysis. I am always looking for opportunities to expand my knowledge and improve my skills in this field, and I look forward to using data to solve problems and generate actionable insights
