@@ -12,7 +12,6 @@ Commerce, Ainshams University
 
 ### Projects
 - Data Cleaning and Validation Project
-
 - code: Data Cleaning and Validation Project
 
 In this project, I cleaned a financial dataset to ensure its quality and accuracy. The steps I performed are:
@@ -33,7 +32,7 @@ Outcome: The data was improved and made ready for analysis.
 - Excel Basics for Data Analysis (IBM)
 - Data Analysis With Python (IBM)
 
-###Contacts
+### Contacts
 - LinkedIn: https://www.linkedin.com/in/manar-ashraf-43226622b/
 - Gmail: manarsan9@gmail.com
 
